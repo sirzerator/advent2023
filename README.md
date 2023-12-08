@@ -16,3 +16,7 @@ This day was very straightforward. However, my first iteration was way too
 slow. It appears that recompiling your regular expressions in a loop is highly
 inefficient... Just moving them to static attributes makes it faster. It's
 still a bit slow but I might come back to it when I learn of a better way.
+
+## Day 3
+
+Took some time to fix all corner cases, but it ended up working.
