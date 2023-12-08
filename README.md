@@ -20,3 +20,13 @@ still a bit slow but I might come back to it when I learn of a better way.
 ## Day 3
 
 Took some time to fix all corner cases, but it ended up working.
+
+## Day 4
+
+As is usual, my first solution was basically the brute-force approach. It was
+fine for the first part because every line had to be computed at least once,
+but for the second part, it really didn't cut it... Because of the
+combinatorial explosion, we had to avoid any useless or repeated work. I used
+memoization, that is saving the first results in a Dictionary (HashMap of
+sorts) in order to avoid redoing the heavy work everytime and just work with
+integers and dictionary queries.
