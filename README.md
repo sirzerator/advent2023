@@ -30,3 +30,10 @@ combinatorial explosion, we had to avoid any useless or repeated work. I used
 memoization, that is saving the first results in a Dictionary (HashMap of
 sorts) in order to avoid redoing the heavy work everytime and just work with
 integers and dictionary queries.
+
+## Day 5
+
+I had to use threads to finish this one in reasonable time on my i5-3570K... It
+was a nice opportunity to try the async..await features of C#. I also had an
+off-by-one error in a loop that threw me off way too long on part 2. The
+iteration time being so long, it took some time before I noticed the problem.
