@@ -37,3 +37,11 @@ I had to use threads to finish this one in reasonable time on my i5-3570K... It
 was a nice opportunity to try the async..await features of C#. I also had an
 off-by-one error in a loop that threw me off way too long on part 2. The
 iteration time being so long, it took some time before I noticed the problem.
+
+## Day 6
+
+I started working on an algebraic solution and rapidly zeroed-in on a quadratic
+equation. Solving was straightforward from there, especially for Part 2. I'm
+getting the impression that the problems' author is trying to hit the
+combinatorial explosion of naive, brute-force solutions to force us to work
+around that.
